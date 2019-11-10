@@ -1,0 +1,17 @@
+program 
+var x,y:int;
+
+begin
+   
+read(x);
+    y:=1;
+    while x>1 do
+    begin
+        y:=y*x;
+        x:=x-1
+    end;
+     
+    
+write(y)
+        
+end@

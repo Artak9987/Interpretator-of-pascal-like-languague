@@ -1,0 +1,15 @@
+program
+var x,i,n:int;
+begin
+read(n);
+
+i:=1;
+n:=1;
+while n>0 do
+    begin
+        read(n);
+        i:=i+n
+        
+    end;
+write(i)
+end@  
